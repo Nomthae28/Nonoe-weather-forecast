@@ -59,7 +59,7 @@ function formatDay(timestamp) {
 }
 
 function displayForecast() {
-  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+
   let forecastHtml = "";
 
   days.forEach(function (day, index) {
