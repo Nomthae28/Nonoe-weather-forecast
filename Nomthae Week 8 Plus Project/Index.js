@@ -67,7 +67,7 @@ function displayForecast() {
           <div class="weather-forecast-temperature">
             <strong>${day.temperature.maximum}º</strong>
           </div>
-          <div class="weather-forecast-temperature">9º</div>
+          <div class="weather-forecast-temperature">${day.temperature.minimum}º</div>
         </div>
       </div>
     `;
